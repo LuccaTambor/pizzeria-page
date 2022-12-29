@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled, {css} from 'styled-components';
 
-import { breakAt, BreakpointSize } from './Breakpoints';
+import { breakAt, BreakpointSize } from 'styles/Breakpoints';
 
 const mainColor = '#2EDF74';
 
@@ -18,25 +18,6 @@ const Root = styled.div`
     background-blend-mode: overlay;
   `}
 `;
-
-// const Title = styled.h1`
-//   position: relative;
-//   font-weight: 700;
-//   letter-spacing: 2px;
-//   margin-bottom: 25px;
-//   padding-bottom: 25px;
-//   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-
-//   &::after {
-//     content: "";
-//     position: absolute;
-//     left: 0;
-//     bottom: -3px;
-//     background-color: ${mainColor};
-//     height: 5px;
-//     width: 70px;
-//   }
-// `;
 
 const Content = styled.div`
   p, li {

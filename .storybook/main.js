@@ -1,7 +1,9 @@
 module.exports = {
   "stories": [
-    "../src/**/*.stories.mdx",
-    "../src/**/*.stories.@(js|jsx|ts|tsx)"
+    "../src/stories/*.stories.mdx",
+    "../src/stories/*.stories.@(js|jsx|ts|tsx)",
+     "../src/components/**/*.stories.mdx",
+     "../src/components/**/*.stories.@(js|jsx|ts|tsx)"
   ],
   "addons": [
     "@storybook/addon-links",
@@ -10,6 +12,7 @@ module.exports = {
     "@storybook/preset-create-react-app",
     "@storybook/addon-viewport",
     "@storybook/addon-docs",
+    "@storybook/addon-knobs",
   ],
   "framework": "@storybook/react",
   "core": {
