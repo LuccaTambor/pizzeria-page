@@ -10,13 +10,15 @@ export default {
 };
 
 export const usage = () => (
-  <Hero title="The best pizza you'll ever eat" image={BgImage01}> 
+  <Hero image={BgImage01}> 
+    <h1>The best <strong> pizza </strong> you'll ever eat</h1>
     <p>The Pizzeria of your dreams</p>
   </Hero>
 );
 
 export const withList = () => (
-  <Hero title="The best pizza you'll ever eat" image={BgImage02}>
+  <Hero image={BgImage02}>
+    <h1>The best <strong> pizza </strong> you'll ever eat</h1>
     <ul>
       <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
       <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
