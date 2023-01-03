@@ -2,13 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-const ButtonColors = {
+export const ButtonColors = {
   default: "default",
   primary: "primary",
   danger: "danger"
 }
 
-const ButtonVariants = {
+export const ButtonVariants = {
   default: "default",
   outlined: "outlined",
   link: "link"
