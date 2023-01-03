@@ -28,7 +28,7 @@ const GlobalStyle = createGlobalStyle`
     letter-spacing: 2px;
 
     strong {
-      color: #2EDF74;
+      color: ${props => props.theme.colors.primary.main};
     }
   }
 
