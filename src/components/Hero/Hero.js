@@ -57,7 +57,6 @@ const Hero = ({ image, children }) => (
       <Content>
         {children}
       </Content> 
-      <button className="">Order Now</button>
     </Container>
   </Root>
 );
