@@ -1,8 +1,13 @@
+import { color } from '@storybook/addon-knobs';
 import React, { Children } from 'react';
 import { ThemeProvider as StyledProvider } from 'styled-components';
 
+export const ThemeNames = {
+  light: 'light',
+  ocean: 'ocean'
+}
 
-const theme = {
+const light = {
   colors: {
     primary: {
       main: '#2EDF74',
@@ -16,12 +21,32 @@ const theme = {
       text: '#ffffff'
     }
   }
+}
+
+const allThemes = {
+  light,
+  ocean: {
+    ...light,
+    colors: {
+      ...light.colors,
+      primary: {
+        main: '#21DAC1',
+        dark: '#009D88',
+        light: '#56F7E1',
+        text: '#fff'
+      }
+    }
+  }
 };
 
-const ThemeProvider = ({ children }) => (
-  <StyledProvider theme={theme}>
+const ThemeProvider = ({ theme,children }) => (
+  <StyledProvider theme={allThemes[theme]}>
     {children}
   </StyledProvider>
 )
+
+ThemeProvider.defaultProps = {
+  theme: 'light'
+}
 
 export default ThemeProvider;
