@@ -6,7 +6,7 @@ import { actions } from '@storybook/addon-actions';
 import Button from './Button';
 
 export default {
-  title: "Components/Button",
+  title: "Components/atoms/Button",
   component: Button
 }
 
