@@ -8,6 +8,7 @@ import Button from 'components/atoms/Button/Button';
 import Feature from "components/atoms/Feature/Feature";
 import Grid from "components/atoms/Grid/Grid";
 import Section from "components/molecules/Section/Section";
+import Footer from "components/organisms/Footer/Footer";
 
 import PizzaBg from "assets/pizzaBg.jpg";
 import PizzaVideo from "assets/pizzaVideo.mp4";
@@ -66,6 +67,7 @@ const Home = () => (
         <h2> Frequent Questions </h2>
       </Heading>
     </Section>
+    <Footer />
   </>
 );
 
