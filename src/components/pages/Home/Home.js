@@ -10,6 +10,7 @@ import Grid from "components/atoms/Grid/Grid";
 import Section from "components/molecules/Section/Section";
 
 import PizzaBg from "assets/pizzaBg.jpg";
+import PizzaVideo from "assets/pizzaVideo.mp4";
 
 const Home = () => (
   <>
@@ -39,6 +40,31 @@ const Home = () => (
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
         </Feature>
       </Grid>
+    </Section>
+    <Section inverse>
+      <Heading>
+        <h2> Some of our flavours </h2>
+      </Heading>
+    </Section>
+    <Section>
+      <Grid md={2}>
+        <div>
+          <Heading>
+            <h2> Our Story </h2>
+          </Heading>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil laudantium, repudiandae beatae laborum reprehenderit optio error recusandae ab iure in eveniet harum necessitatibus vero tempore ex similique earum atque eum!</p>
+          <Button color="primary">Read more</Button>
+        </div>
+        <div>
+          <video src={PizzaVideo} width="100%" autoPlay loop muted/>
+        </div>
+      </Grid>
+      
+    </Section>
+    <Section inverse>
+      <Heading>
+        <h2> Frequent Questions </h2>
+      </Heading>
     </Section>
   </>
 );
