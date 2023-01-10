@@ -96,7 +96,7 @@ exports[`renders with color danger 1`] = `
   cursor: pointer;
   background: #E2243E;
   border: 2px solid #E2243E;
-  color: #212121;
+  color: #ffffff;
 }
 
 .c0:disabled {
