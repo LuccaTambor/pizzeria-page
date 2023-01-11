@@ -9,7 +9,8 @@ import FlavourImage from "stories/assets/margherita.jpg";
 
 export default {
   title: "Components/Atoms/Card",
-  component: Card
+  component: Card,
+  subcomponents: {CardBody, CardMedia}
 };
 
 export const usage = () => (
