@@ -9,9 +9,26 @@ import Feature from "components/atoms/Feature/Feature";
 import Grid from "components/atoms/Grid/Grid";
 import Section from "components/molecules/Section/Section";
 import Footer from "components/organisms/Footer/Footer";
+import ProductGrid from "components/organisms/ProductGrid/ProductGrid";
 
 import PizzaBg from "assets/pizzaBg.jpg";
 import PizzaVideo from "assets/pizzaVideo.mp4";
+
+import Flavour1Image from "assets/margherita.jpg";
+import Flavour2Image from "assets/ham.jpg";
+import Flavour3Image from "assets/hawaian.png";
+import Flavour4Image from "assets/argula.jpg";
+import Flavour5Image from "assets/pepperoni.jpg";
+import Flavour6Image from "assets/veggie.jpg";
+
+const products = [
+  { id: 1, title: "Margherita", summary: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae veritatis molestias provident magni aut mollitia.", image: Flavour1Image},
+  { id: 2, title: "Pepperoni", summary: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae veritatis molestias provident magni aut mollitia.", image: Flavour5Image},
+  { id: 3, title: "Hawaian", summary: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae veritatis molestias provident magni aut mollitia.", image: Flavour3Image},
+  { id: 4, title: "Argula", summary: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae veritatis molestias provident magni aut mollitia.", image: Flavour4Image},
+  { id: 5, title: "Ham", summary: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae veritatis molestias provident magni aut mollitia.", image: Flavour2Image},
+  { id: 6, title: "Veggie", summary: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae veritatis molestias provident magni aut mollitia.", image: Flavour6Image},
+];
 
 const Home = () => (
   <>
@@ -45,6 +62,7 @@ const Home = () => (
     <Section inverse>
       <Heading>
         <h2> Some of our flavours </h2>
+        <ProductGrid products={products}/>
       </Heading>
     </Section>
     <Section>
