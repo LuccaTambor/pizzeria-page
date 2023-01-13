@@ -10,6 +10,8 @@ import Grid from "components/atoms/Grid/Grid";
 import Section from "components/molecules/Section/Section";
 import Footer from "components/organisms/Footer/Footer";
 import ProductGrid from "components/organisms/ProductGrid/ProductGrid";
+import Accordion from "components/atoms/Accordion/Accordion";
+import AccordionGroup from "components/atoms/AccordionGroup/AccordionGroup";
 
 import PizzaBg from "assets/pizzaBg.jpg";
 import PizzaVideo from "assets/pizzaVideo.mp4";
@@ -84,6 +86,17 @@ const Home = () => (
       <Heading>
         <h2> Frequent Questions </h2>
       </Heading>
+      <AccordionGroup>
+        <Accordion title="Common question?">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla saepe esse cupiditate. Cum iste ea officia soluta quasi, quisquam et consequatur deleniti eligendi quo doloremque rem aliquid commodi facere porro. 
+        </Accordion>
+        <Accordion title="Common question?">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla saepe esse cupiditate. Cum iste ea officia soluta quasi, quisquam et consequatur deleniti eligendi quo doloremque rem aliquid commodi facere porro. 
+        </Accordion>
+        <Accordion title="Common question?">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla saepe esse cupiditate. Cum iste ea officia soluta quasi, quisquam et consequatur deleniti eligendi quo doloremque rem aliquid commodi facere porro. 
+        </Accordion>
+      </AccordionGroup>
     </Section>
     <Footer />
   </>
