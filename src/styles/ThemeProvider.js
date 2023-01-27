@@ -1,5 +1,4 @@
-import { color } from '@storybook/addon-knobs';
-import React, { Children } from 'react';
+import React from 'react';
 import { ThemeProvider as StyledProvider } from 'styled-components';
 
 export const ThemeNames = {

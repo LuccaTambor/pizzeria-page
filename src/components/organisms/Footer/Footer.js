@@ -47,7 +47,7 @@ const Footer = () => (
             <h6>Contacts</h6>
           </Heading>
           <p>
-            
+            <IconContainer><FaPhone /></IconContainer>
             (11) 99123-4567
           </p>
           <p>

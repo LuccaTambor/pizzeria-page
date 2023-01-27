@@ -48,14 +48,14 @@ const getTextColor = ({ theme, color }) => {
 }
 
 const getOutlinedText = (props) => {
-  if (props.color == ButtonColors.default)
+  if (props.color === ButtonColors.default)
     return "#212121";
   
   return getMainColor(props);
 }
 
 const getLinkTextColor = (props) => {
-  if (props.color == ButtonColors.default)
+  if (props.color === ButtonColors.default)
     return "#757575";
   
   return getMainColor(props);
