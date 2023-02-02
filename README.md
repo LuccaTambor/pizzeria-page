@@ -11,11 +11,10 @@ One page application built using REACT, emulating the page of a pizzeria, showin
 
 ## :link: Project Links
 
-[Project's page (Running on Vercel)](https://pizzeria-page.vercel.app)
+[Project's page](https://pizzeria-page.vercel.app)
 
 [Project's Storybook and Design System](https://www.chromatic.com/library?appId=63dc1f53cf826477fbf950fc&branch=master)
 
-https://pizzeria-page.vercel.app
 
 ## :heavy_check_mark: To run the project locally
 
