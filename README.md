@@ -9,7 +9,15 @@ One page application built using REACT, emulating the page of a pizzeria, showin
 ![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
 ![Storybook](https://img.shields.io/badge/-Storybook-FF4785?style=for-the-badge&logo=storybook&logoColor=white)
 
-## :heavy_check_mark: To run tje project
+## :link: Project Links
+
+[Project's page (Running on Vercel)](https://pizzeria-page.vercel.app)
+
+[Project's Storybook and Design System](https://www.chromatic.com/library?appId=63dc1f53cf826477fbf950fc&branch=master)
+
+https://pizzeria-page.vercel.app
+
+## :heavy_check_mark: To run the project locally
 
 You need to have npm installed, so you can install the dependencies of the project by runing the following comand in the project directory:
 
