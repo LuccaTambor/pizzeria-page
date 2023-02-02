@@ -1,6 +1,6 @@
 # Pizzeria Page
 
-One page application built using REACT, emulating the page of a pizzeria, showing thei story, products and information
+One page application built using REACT, emulating the page of a pizzeria, showing their story, products and information.
 
 ## :computer: Language and Tech used
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
@@ -11,7 +11,7 @@ One page application built using REACT, emulating the page of a pizzeria, showin
 
 ## :heavy_check_mark: To run tje project
 
-You need to have npm installed, so you can install the dependencies of the project by runing in the project directory:
+You need to have npm installed, so you can install the dependencies of the project by runing the following comand in the project directory:
 
 ### `npm install`
 
